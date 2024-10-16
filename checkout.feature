@@ -18,16 +18,8 @@
             Então o sistema deve mostrar o alerta "Preencher campos obrigatórios"
 
             Esquema do Cenário: Preencher multiplos usuários com campos obrigatórios
-            Quando eu preencher o Nome <nome>
-            E o Sobrenome <sobrenome>
-            E selecionar o País <pais>
-            E preencher o Endereço <endereco>
-            E preencher a Cidade <cidade>
-            E preencher o CEP <CEP>
-            E preencher o Telefone <telefone>
-            E preencher o Endereço de e-mail <email>
-            E clicar em Finalizar compra
-            Então a compra foi efetuada com sucesso
+            Quando eu preencher o Nome <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <CEP>, <telefone>, <email>
+            Então o sistema deve informar que a compra foi efetuada com sucesso
 
             Exemplos:
             | nome      | sobrenome   | pais       | endereco               | cidade      | CEP         | Telefone    | email                        |
